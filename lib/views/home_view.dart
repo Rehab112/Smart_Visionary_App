@@ -4,7 +4,6 @@ import 'dart:convert';
 import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
-// import 'package:image_picker/image_picker.dart';
 import 'package:http/http.dart' as http;
 import 'package:camera/camera.dart';
 import 'package:flutter_tts/flutter_tts.dart';
@@ -109,6 +108,8 @@ class _HomeViewState extends State<HomeView> {
     // _audioRecorder = null;
     super.dispose();
   }
+
+
 
 
   // Future<void> _startRecording() async {
