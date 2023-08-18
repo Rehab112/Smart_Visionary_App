@@ -3,9 +3,10 @@
 #### Table of Contents
 1. [Overview](#overview)
 2. [Features](#features)
-3. [Usage](#usage)
-4. [Voice Commands](#voice-commands)
-5. [Backend](#backend)
+3. [Workflow](#workflow)
+4. [Usage](#usage)
+5. [Voice Commands](#voice-commands)
+6. [Backend](#backend)
 
 #### Overview
 The frontend for the Smart Visionary application, designed to assist the visually impaired and blind. This Flutter application connects to the backend and facilitates user interaction via voice commands and taps.
@@ -15,6 +16,9 @@ The frontend for the Smart Visionary application, designed to assist the visuall
 2. **Double-tap Capturing** - Double-tap on the screen to capture an image.
 3. **Firebase Messaging** - For authentication and device token management.
 4. **Audio Feedback** - Results from the backend are played back as audio.
+
+#### Workflow
+After choosing a model or feature to use, the user double-taps on the screen to capture an image. This image is sent to the backend server through the specified API for the chosen feature. The backend processes the image and returns the result as text within a JSON file. The Flutter application then converts this text into audio and plays it to the user.
 
 #### Usage
 1. Speak the trigger word to select a feature.
